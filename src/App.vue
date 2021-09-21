@@ -1,13 +1,19 @@
 <template>
   <div class="p-8 flex justify-center">
     <family-tree :data="tudorFamily" :horizontal="false" :collapsable="true">
+      <template #node="{data}">
+        <Person :data="data" />
+      </template>
     </family-tree>
   </div>
 </template>
 
 <script>
+import Person from "./Person.vue";
+
 export default {
   name: "App",
+  components: { Person },
   data() {
     return {
       tudorFamily: {
