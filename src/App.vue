@@ -57,6 +57,12 @@ export default {
                 avatar: "jane_seymour.jpeg",
                 children: [{ label: "Edward Tudor" }],
               },
+              {
+                label: "Anne of Cleves",
+                dates: "1515 - 1557",
+                married: "1540 - 1540",
+                avatar: "anne_of_cleves.jpeg",
+              },
             ],
           },
           {
