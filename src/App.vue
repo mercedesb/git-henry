@@ -38,6 +38,17 @@ export default {
                   },
                 ],
               },
+              {
+                label: "Anne Boleyn",
+                dates: "1501 - 1536",
+                married: "1533 - 1536",
+                avatar: "anne_boleyn.jpeg",
+                children: [
+                  {
+                    label: "Elizabeth Tudor",
+                  },
+                ],
+              },
             ],
           },
           {
