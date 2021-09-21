@@ -1,5 +1,11 @@
 <template>
-  <div>
+  <div class="flex flex-col items-center">
+    <img
+      v-if="data.avatar"
+      class="w-1/2 mr-2"
+      :src="avatar"
+      :alt="`Painting of ${data.label}`"
+    />
     <div>
       <strong class="text-primary-500">
         {{ data.label }}
@@ -17,6 +23,11 @@ export default {
     data: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    avatar() {
+      return require(`@/assets/avatars/${this.data.avatar}`);
     },
   },
 };

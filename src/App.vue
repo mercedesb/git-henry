@@ -31,6 +31,7 @@ export default {
                 label: "Catherine of Aragon",
                 dates: "1485 - 1536",
                 married: "1509 - 1533",
+                avatar: "catherine_of_aragon.jpeg",
                 children: [
                   {
                     label: "Mary Tudor",
