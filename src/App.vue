@@ -24,8 +24,18 @@ export default {
             dates: "1457 - 1509",
             children: [
               {
+                label: "Henry VIII",
+                dates: "1491 - 1547",
+              },
+              {
                 label: "Catherine of Aragon",
                 dates: "1485 - 1536",
+                married: "1509 - 1533",
+                children: [
+                  {
+                    label: "Mary Tudor",
+                  },
+                ],
               },
             ],
           },

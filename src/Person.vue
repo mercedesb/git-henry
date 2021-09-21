@@ -6,6 +6,7 @@
       </strong>
     </div>
     <div class="text-sm">{{ data.dates }}</div>
+    <div v-if="data.married" class="text-sm">Married: {{ data.married }}</div>
   </div>
 </template>
 
