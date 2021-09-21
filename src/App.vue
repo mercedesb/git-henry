@@ -49,6 +49,13 @@ export default {
                   },
                 ],
               },
+              {
+                label: "Jane Seymour",
+                dates: "1508 - 1537",
+                married: "1536 - 1537",
+                avatar: "jane_seymour.jpeg",
+                children: [{ label: "Edward Tudor" }],
+              },
             ],
           },
           {
