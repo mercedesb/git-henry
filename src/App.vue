@@ -62,6 +62,12 @@ export default {
                 married: "1540 - 1540",
                 avatar: "anne_of_cleves.jpeg",
               },
+              {
+                label: "Catherine Howard",
+                dates: "1520 - 1542",
+                married: "1540 - 1542",
+                avatar: "catherine_howard.jpeg",
+              },
             ],
           },
           {
