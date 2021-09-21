@@ -33,9 +33,11 @@ export default {
                 dates: "1485 - 1536",
                 married: "1509 - 1533",
                 avatar: "catherine_of_aragon.jpeg",
+                ending: "Divorced",
                 children: [
                   {
                     label: "Mary Tudor",
+                    aka: "Mary I aka Bloody Mary",
                   },
                 ],
               },
@@ -44,30 +46,30 @@ export default {
                 dates: "1501 - 1536",
                 married: "1533 - 1536",
                 avatar: "anne_boleyn.jpeg",
-                children: [
-                  {
-                    label: "Elizabeth Tudor",
-                  },
-                ],
+                ending: "Beheaded",
+                children: [{ label: "Elizabeth Tudor", aka: "Elizabeth I" }],
               },
               {
                 label: "Jane Seymour",
                 dates: "1508 - 1537",
                 married: "1536 - 1537",
                 avatar: "jane_seymour.jpeg",
-                children: [{ label: "Edward Tudor" }],
+                ending: "Died",
+                children: [{ label: "Edward Tudor", aka: "Edward VI" }],
               },
               {
                 label: "Anne of Cleves",
                 dates: "1515 - 1557",
                 married: "1540 - 1540",
                 avatar: "anne_of_cleves.jpeg",
+                ending: "Divorced",
               },
               {
                 label: "Catherine Howard",
                 dates: "1520 - 1542",
                 married: "1540 - 1542",
                 avatar: "catherine_howard.jpeg",
+                ending: "Beheaded",
               },
               {
                 label: "Catherine Parr",
