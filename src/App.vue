@@ -68,6 +68,13 @@ export default {
                 married: "1540 - 1542",
                 avatar: "catherine_howard.jpeg",
               },
+              {
+                label: "Catherine Parr",
+                dates: "1512 - 1548",
+                married: "1543 - 1547",
+                avatar: "catherine_parr.jpeg",
+                ending: "Survived",
+              },
             ],
           },
           {
