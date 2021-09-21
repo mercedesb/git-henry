@@ -24,10 +24,6 @@ export default {
             dates: "1457 - 1509",
             children: [
               {
-                label: "Arthur Tudor",
-                dates: "1486 - 1502",
-              },
-              {
                 label: "Catherine of Aragon",
                 dates: "1485 - 1536",
               },
